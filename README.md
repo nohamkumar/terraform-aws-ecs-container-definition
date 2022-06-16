@@ -66,7 +66,7 @@ Example:
 ```
 module "ecs-container-definition" {
   namespace = "sg"
-  source    = "git@github.com:studiographene/tf-modules.git//ecs-container-definition"
+  source    = "git@github.com:nohamkumar/aws-ecs-container-definition.git"
 
   container_name               = "server"
   container_image              = "httpd:2.4"
